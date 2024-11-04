@@ -1,5 +1,5 @@
 {% set name = "mako-rust" %}
-{% set version = "0.9.3" %}
+{% set version = "0.9.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/umijs/mako/archive/v{{ version }}.tar.gz
-  sha256: 8a1491a52709576a49a2285ee4e4117d175ee427961bc8bef98abbe47f27b3d1
+  sha256: cc90971c13dc12bfb29f3f7d8119e9eaca5288e38af3daab5316e290e2e4d8bd
 
 build:
   number: 0
