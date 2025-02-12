@@ -1,13 +1,13 @@
 context:
-  version: "0.11.3"
+  version: "0.11.4"
 
 package:
   name: mako-rust
   version: ${{ version }}
 
 source:
-  url: https://github.com/umijs/mako/archive/v${{ version }}.tar.gz
-  sha256: 37894f099b480864337a68f394d6c9cbeb5facf459eb501092dc7ace15a1813f
+  url: https://github.com/umijs/mako/archive/${{ version }}.tar.gz
+  sha256: 5203edcb4897e3a3a84b697166f09e2b99429402da356011479e37e9b472857a
 
 build:
   number: 0
