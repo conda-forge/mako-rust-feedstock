@@ -1,5 +1,5 @@
 context:
-  version: "0.11.13"
+  version: "0.11.15"
 
 package:
   name: mako-rust
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/umijs/mako/archive/${{ version }}.tar.gz
-  sha256: 41bc3529f0edd70b53151ec599a32ddc9a19db69a7dfb8c4b24d6177135d3ead
+  sha256: 0460e81c18866da2c0fefd6d77451cf0768183b057faafce6721eac15e07d1af
 
 build:
   number: 0
